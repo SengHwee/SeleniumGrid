@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-17T16:14:11 SGT" name="run tests in parallel" finished-at="2020-01-17T16:14:55 SGT" duration-ms="44648">
+    <groups>
+    </groups>
+    <test started-at="2020-01-17T16:14:11 SGT" name="Note4Eribank" finished-at="2020-01-17T16:14:37 SGT" duration-ms="26495">
+      <class name="parallelappium.Note4">
+        <test-method is-config="true" signature="setup()[pri:0, instance:parallelappium.Note4@3d121db3]" started-at="2020-01-17T16:14:11 SGT" name="setup" finished-at="2020-01-17T16:14:33 SGT" duration-ms="22200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sampleTest()[pri:0, instance:parallelappium.Note4@3d121db3]" started-at="2020-01-17T16:14:33 SGT" name="sampleTest" finished-at="2020-01-17T16:14:35 SGT" duration-ms="2299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:parallelappium.Note4@3d121db3]" started-at="2020-01-17T16:14:35 SGT" name="teardown" finished-at="2020-01-17T16:14:37 SGT" duration-ms="1969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- parallelappium.Note4 -->
+    </test> <!-- Note4Eribank -->
+    <test started-at="2020-01-17T16:14:11 SGT" name="S4Eribank" finished-at="2020-01-17T16:14:55 SGT" duration-ms="44648">
+      <class name="parallelappium.S4">
+        <test-method is-config="true" signature="setup()[pri:0, instance:parallelappium.S4@163e4e87]" started-at="2020-01-17T16:14:11 SGT" name="setup" finished-at="2020-01-17T16:14:52 SGT" duration-ms="41500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sampleTest()[pri:0, instance:parallelappium.S4@163e4e87]" started-at="2020-01-17T16:14:52 SGT" name="sampleTest" finished-at="2020-01-17T16:14:54 SGT" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:parallelappium.S4@163e4e87]" started-at="2020-01-17T16:14:54 SGT" name="teardown" finished-at="2020-01-17T16:14:55 SGT" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- parallelappium.S4 -->
+    </test> <!-- S4Eribank -->
+  </suite> <!-- run tests in parallel -->
+</testng-results>
